@@ -21,15 +21,14 @@ This project is a full end-to-end DevOps practice project where we:
 - **Docker** – for containerizing the app
 
 ### ✅ Folder Structure
-```
+
 flask-mysql-app/
-│
-├── app.py              # Main Flask application
-├── requirements.txt    # Python dependencies
-├── Dockerfile          # Multistage Docker build (Flask + MySQL)
-├── Jenkinsfile         # Jenkins pipeline script for CI/CD
-└── README.md           # Project documentation
-```
+├── app.py             # Main Flask application
+├── requirements.txt   # Python dependencies
+├── Dockerfile         # Multistage Docker build (Flask + MySQL)
+├── Jenkinsfile        # Jenkins pipeline script for CI/CD
+└── README.md          # Project documentation
+
 
 ---
 
