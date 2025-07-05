@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Clone Repo') {
             steps {
-                git 'https://github.com/Nidhi-kumarii/flask-mysql-app.git'
+                git 'https://github.com/Nidhi-kumarii/flask-mysql-app.git', branch: 'main'
             }
         }
 
