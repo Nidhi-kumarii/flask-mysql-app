@@ -11,16 +11,10 @@ A two-tier web application built using **Flask** (Python) and **MySQL**, contain
 - AWS EC2 (for deployment)
 - HTML (Jinja templates)
 
-## 📁 Project Structure
 
 
-flask-mysql-app/
-├── app.py
-├── Dockerfile
-├── docker-compose.yml
-├── requirements.txt
-└── templates/
-└── index.html
+
+<pre> ## 📁 Project Structure ``` flask-mysql-app/ ├── app.py ├── Dockerfile ├── docker-compose.yml ├── requirements.txt └── templates/ └── index.html ``` </pre>
 
 
 
