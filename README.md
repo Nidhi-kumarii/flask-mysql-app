@@ -1,8 +1,8 @@
 
  End-to-End Project with Docker + Jenkins CI/CD Pipeline
 
-```markdown
-# 🐳 Flask + MySQL App with Jenkins CI/CD Pipeline
+```
+# Flask + MySQL App with Jenkins CI/CD Pipeline
 
 This project is a full end-to-end DevOps practice project where we:
 
@@ -14,13 +14,13 @@ This project is a full end-to-end DevOps practice project where we:
 
 ## 🧱 Step 1: Application Development
 
-### ✅ Stack Used
+###  Stack Used
 
 - **Flask** – for the web app
 - **MySQL** – for backend DB
 - **Docker** – for containerizing the app
 
-### ✅ Folder Structure
+###  Folder Structure
 
 flask-mysql-app/
 ├── app.py             # Main Flask application
@@ -32,7 +32,7 @@ flask-mysql-app/
 
 ---
 
-## 🐳 Step 2: Dockerization
+##  Step 2: Dockerization
 
 - Created a **multi-stage Dockerfile** to separate build and runtime.
 - Tested image locally using:
@@ -44,15 +44,15 @@ docker run -p 5000:5000 two-tier-flask-app
 
 ---
 
-## ⚙️ Step 3: Jenkins CI/CD Pipeline
+## Step 3: Jenkins CI/CD Pipeline
 
-### ✅ Jenkins Setup
+### Jenkins Setup
 
 * Installed Jenkins on an EC2 instance.
 * Installed required plugins (Docker, GitHub, Pipeline, Credentials, etc.)
 * Configured credentials for GitHub and DockerHub.
 
-### ✅ Jenkinsfile (Declarative Pipeline)
+###  Jenkinsfile (Declarative Pipeline)
 
 ```groovy
 pipeline {
@@ -103,14 +103,14 @@ pipeline {
 
 ---
 
-## 📦 DockerHub Repository
+##  DockerHub Repository
 
 > Docker Image pushed to:
-> 👉 [nidhikumari1/two-tier-flask-app](https://hub.docker.com/repository/docker/nidhikumari1/two-tier-flask-app)
+>  [nidhikumari1/two-tier-flask-app](https://hub.docker.com/repository/docker/nidhikumari1/two-tier-flask-app)
 
 ---
 
-## 📌 What's Next?
+##  What's Next?
 
 * [ ] Automated **deployment stage** using SSH into a remote EC2 agent.
 * [ ] Connect Jenkins Master to Agent for deployment.
@@ -119,12 +119,12 @@ pipeline {
 
 ---
 
-## 🙋‍♀️ Author
+##  Author
 
 **Nidhi Kumari**
-📍 DevOps | Cloud | Docker | CI/CD
-🔗 GitHub: [Nidhi-kumarii](https://github.com/Nidhi-kumarii)
-📦 DockerHub: [nidhikumari1](https://hub.docker.com/u/nidhikumari1)
+DevOps | Cloud | Docker | CI/CD
+GitHub: [Nidhi-kumarii](https://github.com/Nidhi-kumarii)
+DockerHub: [nidhikumari1](https://hub.docker.com/u/nidhikumari1)
 
 ---
 
