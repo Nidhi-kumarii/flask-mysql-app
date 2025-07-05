@@ -47,6 +47,21 @@ cd flask-mysql-app
 docker-compose up -d
 ```
 
+
+
+## 🐳 Docker Hub Image
+
+This project is also available as a Docker image on Docker Hub:
+
+🔗 **[nidhikumari1/two-tier-flask-app:latest](https://hub.docker.com/r/nidhikumari1/two-tier-flask-app)**
+
+You can pull and run the image using the following command:
+
+```bash
+docker pull nidhikumari1/two-tier-flask-app:latest
+
+
+
 # Visit the app
 http://localhost:5000
 
