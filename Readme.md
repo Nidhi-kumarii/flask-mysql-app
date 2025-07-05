@@ -13,6 +13,7 @@ A two-tier web application built using **Flask** (Python) and **MySQL**, contain
 
 ## 📁 Project Structure
 
+
 flask-mysql-app/
 ├── app.py
 ├── Dockerfile
@@ -39,31 +40,12 @@ cd flask-mysql-app
 
 # Build and start the containers
 docker-compose up -d
+```
 
 # Visit the app
 http://localhost:5000
 
 
-
-## 🔧 Setup Instructions
-
-### Prerequisites
-
-- Docker
-- Docker Compose
-
-### Run Locally
-
-```bash
-# Clone the repo
-git clone https://github.com/Nidhi-kumarii/flask-mysql-app.git
-cd flask-mysql-app
-
-# Build and start the containers
-docker-compose up -d
-
-# Visit the app
-http://localhost:5000
 
 
 🛡️ Security Notes
