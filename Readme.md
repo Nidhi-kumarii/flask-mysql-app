@@ -14,16 +14,18 @@ A two-tier web application built using **Flask** (Python) and **MySQL**, contain
 
 
 
-## 📁 Project Structure 
+## 📁 Project Structure
 
+```
+flask-mysql-app/
+├── app.py  
+├── Dockerfile  
+├── docker-compose.yml  
+├── requirements.txt  
+└── templates/  
+    └── index.html
+```
 
-  flask-mysql-app/
-├── app.py
-├── Dockerfile
-├── docker-compose.yml
-├── requirements.txt
-└── templates/
-└── index.html
 
 
 
